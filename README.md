@@ -9,6 +9,7 @@ After years of utilizing GitHub primarily for infrastructure research, deploymen
 ## Modules Included
 *   `verification.js`: Core network state checking and environment integrity validation.
 *   `monad-validator.js`: Multi-level gas threshold analysis and client-side balance security checks (configured for Monad Testnet specifications).
+*   `reward-calc.js`: Client-side exponential calculation module for validating network staking yields and difficulty multipliers.
 
 ## Environment Setup
 Strict mode enforced to optimize anti-Sybil patterns and prevent variable leakage. Designed for isolated V8 engine execution via standard developer consoles.
